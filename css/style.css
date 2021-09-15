@@ -17,19 +17,20 @@ body{
 }
 .tiki-content{
     text-align: center;
+    background-color: whitesmoke;
 }
 .tiki-content .tiki-content-top{
-    background-color: pink;
+    background-color: white;
     height: 46px;
     padding: 16px;
     margin-bottom: 15px;
-    margin-top: 0px
+    
 }
 .tiki-content .tiki-content-top a{
     margin:auto;
     width:1240px;
     text-decoration: none;
-    border: pink;
+    border: white;
     padding: 14px;
 }
 .tiki-content .tiki-main{
@@ -42,51 +43,73 @@ body{
 .tiki-content-img-right a{
     float: right;
 }
-.tiki-content-mid-1-top{
+.tiki-content-mid-one-top{
     float: left;
     padding: 22px;
-    background-color: pink;
-    width: 1240px;
+    background-color: white;
+    width: 100%;
     margin: 15px 0 1px;
 }
-.tiki-content-mid-1-product{
+.tiki-content-mid-one-product{
     float: left;
-    width:1240px;
-    background-color: pink;
+    width: 100%;
+    background-color: white;
     margin-bottom: 15px;
 }
-.tiki-content-mid-1-product img{
+.tiki-content-mid-one-product img{
     width: 202px;
     padding: 14px;
 }
-.tiki-content-mid-2-product{
-    width:1240px;
+.tiki-content-mid-two-product{
+    width:100%;
 }
-.tiki-content-mid-2-product .left{
+.tiki-content-mid-two-product .left{
     float: left;
 }
-.tiki-content-mid-2-product .right{
+.tiki-content-mid-two-product .right{
     float: right;
 }
-.tiki-content-mid-3-product{
+.tiki-content-mid-three-product{
     margin-top: 15px;
     height: 140px;
-    background-color: pink;
-    width:1240px;
+    background-color: white;
+    width:100%;
 }
-.tiki-content-mid-3-product .col-sm-3{
-    
-    
+.tiki-content-mid-three-product .container{
+    padding: 16px 0 0 0;
 }
-.tiki-content-mid-3-product .left{
+.tiki-content-mid-three-product .lefta{
     float: left;
-    background-color: black;
+    margin-left: 28px;
 }
-.tiki-content-mid-3-product .right{ 
+.tiki-content-mid-three-product .righta{
     float: right;
-    background-color: red;
+    margin-right: 72px;
 }
-
+.tiki-content-mid-three-product .leftb{ 
+    float: left;
+    margin-left: 72px;
+}
+.tiki-content-mid-three-product.rightb{ 
+    float: right;
+    margin-right: 28px;
+}
+.tiki-content-mid-three-product .leftc{
+    float: left;
+    margin-left: 42px;
+}
+.tiki-content-mid-three-product .rightc{
+    float: right;
+    margin-right: 57px;
+}
+.tiki-content-mid-three-product .leftd{ 
+    float: left;
+    margin-left: 57px;
+}
+.tiki-content-mid-three-product.rightd{ 
+    float: right;
+    margin-right: 42px;
+}
 
 
 
